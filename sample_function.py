@@ -1,5 +1,5 @@
 from celery import Celery
-app = Celery('func1', broker = "redis://")
+app = Celery('sample_function', broker = "redis://")
 
 def g(x):
 	return x
